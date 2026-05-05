@@ -34,6 +34,6 @@ Python | Pandas | Scikit-learn | Matplotlib | Jupyter Notebook
 
 ## Author
 Iman Othman
-MS Data Analytics Engineering — Northwestern University
+MS Data Analytics Engineering — Northeastren University
 [LinkedIn Profile URL]
 https://www.linkedin.com/in/iman-o-675585377?utm_source=share_via&utm_content=profile&utm_medium=member_ios
