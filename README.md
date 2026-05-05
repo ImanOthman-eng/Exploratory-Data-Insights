@@ -1,50 +1,39 @@
-# Exploratory-Data-Insights
-Exploratory data analysis of multiple datasets with visualizations and statistical insights.
-# Clustering Analysis on the Economist Democracy Index
+# Democracy Clustering Analysis
+Unsupervised machine learning project analyzing 167 countries 
+using the Economist Democracy Index.
 
-## Project Overview
-This project applies clustering algorithms to the Economist Democracy Index dataset to explore patterns among countries based on democratic indicators. The analysis provides hands-on experience with unsupervised learning techniques on a real-world socio-political dataset.
+## What This Project Does
+Applies K-Means and Hierarchical Clustering to group countries 
+based on five democratic indicators, then compares algorithmic 
+clusters against official regime classifications.
 
-## Objective
-The objective of this project is to implement clustering techniques and analyze how countries can be grouped based on similarities in their democratic characteristics.
+## Dataset
+Economist Intelligence Unit — Democracy Index
+167 countries × 5 features:
+- Electoral Process & Pluralism
+- Functioning of Government
+- Political Participation
+- Political Culture
+- Civil Liberties
 
-## Dataset Description
-The Economist Democracy Index is an annual index compiled by *The Economist Intelligence Unit (EIU)*. It evaluates the state of democracy across countries worldwide and is widely referenced in political and academic research.
+## Methods Used
+- StandardScaler for feature normalization
+- K-Means Clustering (k=4, determined via Elbow Method)
+- Hierarchical Clustering (Ward + Complete linkage)
+- Density plots per cluster for distribution analysis
 
-The index is based on five key categories:
-- **Electoral Process and Pluralism**
-- **Functioning of Government**
-- **Political Participation**
-- **Political Culture**
-- **Civil Liberties**
+## Key Findings
+- K-Means (k=4) aligned closely with the 4 official regime types
+- Ward linkage produced more balanced clusters than Complete linkage
+- Political Participation showed highest variance across clusters
+- Civil Liberties was the strongest separator between Full 
+  Democracies and Authoritarian regimes
 
-Countries are classified into four regime types based on their scores:
-- Full democracies  
-- Flawed democracies  
-- Hybrid regimes  
-- Authoritarian regimes  
-
-## Methodology
-The project follows these main steps:
-- Loading and exploring the dataset
-- Data preprocessing
-- Exploratory data analysis (EDA)
-- Applying K-means clustering
-- Using the elbow method to determine the optimal number of clusters
-- Visualizing and interpreting clustering results
-
-## Tools and Technologies
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Jupyter Notebook
-
-## Key Outcomes
-- Identified meaningful clusters of countries based on democratic indicators
-- Observed patterns and similarities across different political systems
-- Demonstrated practical use of clustering algorithms on real-world data
+## Tech Stack
+Python | Pandas | Scikit-learn | Matplotlib | Jupyter Notebook
 
 ## Author
 Iman Othman
+MS Data Analytics Engineering — Northwestern University
+[LinkedIn Profile URL]
+https://www.linkedin.com/in/iman-o-675585377?utm_source=share_via&utm_content=profile&utm_medium=member_ios
